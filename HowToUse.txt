@@ -1,0 +1,31 @@
+Requirement:
+	Linux OS (Ubuntu can work)
+	gcc compiler 
+	(can be installed following instructions: https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/)
+
+Step-1: Download the zip file and extract it in desired folder
+Step-2: You must have four files now in your folder: source.c, queue.c, queue.h, and HowToUse.txt
+Step-3: Open Linux Terminal
+Step-4: Write this command: gcc -o source source.c queue.c
+Step-5: After the compilation, on the same terminal run the following command: ./source
+
+Output:
+Program will begin after this. 
+Test as per your requirement.
+
+After each step: 
+	Fringe (in grid form) will be shown in yellow color
+	Expanded Nodes (in grid form) will be shown in Cyan color 
+
+At the end:
+	Statistics (cost, generated nodes, expanded nodes, etc.) will be shown in Purple color
+	
+	Path (in grid form):
+	Letter 'A' indicates the initial robot position
+	HIGHEST Letter indicates the goal position
+	NOTE: If number of steps exceed the Capital English letters, further steps are represented by smaller English letters
+	Incremental letters indicate the navigation or path of the robot
+
+
+In case of any questions: write to areeb.tariq@yahoo.com
+
